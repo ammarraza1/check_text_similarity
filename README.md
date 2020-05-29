@@ -7,5 +7,5 @@ Steps to run the docker container:
   docker build -t webapp .
 4. Run the docker container using the following command: 
   docker run -p 5000:5000 webapp
-5. Open a web browswer in your local machine and open up localhost:5000
+5. Open a web browser in your local machine and open up localhost:5000
 6. Make sure you input text in both the text boxes before pressing on the 'Check Similarity' button.
