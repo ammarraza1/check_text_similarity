@@ -1,0 +1,15 @@
+<home>
+   <body>
+      <title>Similarity between two texts</title>
+      <form action="http://localhost:5000" method="POST">
+         <p>First Text : </p>
+         <p><textarea name="text_box_1" rows="16" cols="200" autofocus>{{text_box_1}}</textarea></p>
+         <p>Second Text : </p>
+         <p><textarea name="text_box_2" rows="16" cols="200" autofocus>{{text_box_2}}</textarea></p>
+	 <br>
+         <p><input type="submit" name="action" value="CHECK SIMILARITY"></p>
+         <br>
+         <p><h3>{{output}}</h3></p>
+      </form>
+   </body>
+</home>
